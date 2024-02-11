@@ -1,0 +1,10 @@
+#Ignore all
+/*
+!.gitignore
+!kitty/
+!/nvim/
+!/zsh/
+
+kitty/.kitty.conf.swp
+kitty/.empty/*
+nvim/plugged/*
