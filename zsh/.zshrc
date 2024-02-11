@@ -37,3 +37,12 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# Maybe needed for the macOs environment "curl is keg-only, which means it was not symlinked into /opt/homebrew, because macOS already provides this software and installing another version in parallel can cause all kinds of trouble."
+#
+#export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+#export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
+#export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+#export LDFLAGS="-L/opt/homebrew/opt/curl/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/curl/include"
