@@ -1,3 +1,6 @@
+# This is the link to install the necesary zplug
+# https://github.com/zplug/zplug?tab=readme-ov-file
+#
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "zsh-users/zsh-autosuggestions"
