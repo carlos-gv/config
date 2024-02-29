@@ -77,7 +77,8 @@ if executable('rg')
     let g:rg_derive_root='true'
 endif
 
-
+"Change color of highlighting
+hi Visual cterm=none ctermbg=brown ctermfg=cyan
 
 let g:ctrlp_user_command = ['.git/','git --git-dir']
 let mapleader = " "
@@ -111,8 +112,10 @@ nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 nnoremap <leader>t gt
 nnoremap <leader>T gT
+
 ""made to easy use in planckton
 "imap /<Tab> <plug>vim_completes_me_forward
+
 ""Fix to windows ctrl+v overlap
 nnoremap <leader>v <C-v>
 
@@ -194,4 +197,3 @@ function! OpenTerminal()
 endfunction
 
 nmap <C-t> :call OpenTerminal()<CR>
-
